@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(grDevices, colors, dev.cur, dev.new, dev.off, png)
+importFrom(graphics, legend, par, plot, title)
+importFrom(stats, kmeans)
+importFrom(utils, combn)
+importFrom(igraph, graph.edgelist)
+import(datasets)
